@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  10 JUL 2014 19:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.12.8)  10 JUL 2014 19:37
 entering extended mode
 **C:/Users/rymbln/Documents/GitHub/LaTeX_Statplan/Document.tex
 (C:/Users/rymbln/Documents/GitHub/LaTeX_Statplan/Document.tex
@@ -295,26 +295,26 @@ LaTeX Font Info:    Try loading font information for T2A+cmr on input line 3.
 (D:\INSTALL\LaTeX\Full_TeX\texmf\tex\latex\cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Try loading font information for OT1+far on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Try loading font information for OT1+far on input line 63.
 
 (D:\INSTALL\LaTeX\Full_TeX\localtexmf\tex\latex\pscyr\ot1far.fd
 File: ot1far.fd 2002/07/04 Fontinst v1.914 font definitions for OT1/far.
 )
-LaTeX Font Info:    Try loading font information for T2A+far on input line 60.
+LaTeX Font Info:    Try loading font information for T2A+far on input line 63.
 
 (D:\INSTALL\LaTeX\Full_TeX\localtexmf\tex\latex\pscyr\t2afar.fd
 File: t2afar.fd 2002/07/04 Fontinst v1.914 font definitions for T2A/far.
@@ -373,98 +373,53 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 60.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 65.
+(lastpage)             ! on input line 63.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 68.
 (D:\INSTALL\LaTeX\Full_TeX\texmf\tex\latex\lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 65.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 68.
 
 (D:\INSTALL\LaTeX\Full_TeX\texmf\tex\latex\lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 65.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 68.
 
 
 (D:\INSTALL\LaTeX\Full_TeX\texmf\tex\latex\lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 65.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 68.
 
 
 (D:\INSTALL\LaTeX\Full_TeX\texmf\tex\latex\lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 65.
+(Font)              <12> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 65.
+(Font)              <8> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 65.
+(Font)              <6> on input line 68.
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
-[]|[]\T2A/far/bx/n/12 Контрактно-исследовательская ор-га-
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[]|\T2A/far/m/n/12 Проспективная на-блю-да-тель-ная про-
  []
 
 
-Underfull \hbox (badness 1137) in paragraph at lines 107--108
-[]|\T2A/far/m/n/10.95 Добавлены по-пу-ля-ции для про-ме-жу-точ-но-го
+Underfull \hbox (badness 5563) in paragraph at lines 82--83
+\T2A/far/m/n/12 лидов и тет-ра-цик-ли-нов у муж-чин с
  []
 
 
-Overfull \hbox (25.1549pt too wide) in paragraph at lines 91--110
-[][][] 
+Underfull \hbox (badness 7595) in paragraph at lines 82--83
+\T2A/far/m/n/12 ной кли-ни-че-ской прак-ти-ке в Рос-сии
  []
 
 
-Overfull \hbox (12.79999pt too wide) in paragraph at lines 126--131
+Overfull \hbox (1.26012pt too wide) in paragraph at lines 92--106
  [][][] 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
- |[][]\T2A/far/bx/n/17.28 Введение|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--138
- |[][]\T2A/far/bx/n/17.28 Список со-кра-ще-ний|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]|[]\T2A/far/m/n/12 PANSS General
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--163
-[][]$[]$
- []
-
-
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 142--163
-[] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 164.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 164.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 164.
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
- |[][]\T2A/far/bx/n/17.28 Дизайн ис-сле-до-ва-ния|
- []
-
-<1.png, id=1, 826.58812pt x 359.09157pt>
-File: 1.png Graphic file (type png)
- <use 1.png>
-Package pdftex.def Info: 1.png used on input line 172.
-(pdftex.def)             Requested size: 497.92325pt x 216.31685pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -475,53 +430,54 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{D:/INSTALL/LaTeX/Full_TeX/texmf/pdftex/config/pdftex.map}
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]|[]\T2A/far/m/n/12 PANSS General
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--159
+[][]$[]$
+ []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 138--159
+[] 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 160.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 160.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 160.
+<1.png, id=7, 826.58812pt x 359.09157pt>
+File: 1.png Graphic file (type png)
+ <use 1.png>
+Package pdftex.def Info: 1.png used on input line 168.
+(pdftex.def)             Requested size: 497.92325pt x 216.31685pt.
+File: 1.png Graphic file (type png)
+ <use 1.png>
+Package pdftex.def Info: 1.png used on input line 174.
+(pdftex.def)             Requested size: 121.99255pt x 52.99568pt.
 File: 1.png Graphic file (type png)
  <use 1.png>
 Package pdftex.def Info: 1.png used on input line 178.
-(pdftex.def)             Requested size: 121.99255pt x 52.99568pt.
-File: 1.png Graphic file (type png)
-
-<use 1.png>
-Package pdftex.def Info: 1.png used on input line 182.
 (pdftex.def)             Requested size: 121.99255pt x 52.99568pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[2
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
-|[]\T2A/far/bx/n/14.4 Рандомизация|
- []
+] [3 <C:/Users/rymbln/Documents/GitHub/LaTeX_Statplan/1.png>]
+LaTeX Font Info:    Try loading font information for OMS+far on input line 214.
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
-|[]\T2A/far/bx/n/14.4 Маскирование|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
- |[][]\T2A/far/bx/n/17.28 Цели и за-да-чи ис-сле-до-ва-ния|
- []
-
-[3 <C:/Users/rymbln/Documents/GitHub/LaTeX_Statplan/1.png>]
-LaTeX Font Info:    Try loading font information for OMS+far on input line 218.
-
-LaTeX Font Info:    No file OMSfar.fd. on input line 218.
+LaTeX Font Info:    No file OMSfar.fd. on input line 214.
 
 
 LaTeX Font Warning: Font shape `OMS/far/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 218.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
- |[][]\T2A/far/bx/n/17.28 Определение раз-ме-ра вы-бор-ки|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
- |[][]\T2A/far/bx/n/17.28 Замещение про-пу-щен-ных дан-ных|
- []
+(Font)              for symbol `textbullet' on input line 214.
 
 [4] 
 AED: lastpage setting LastPage
@@ -531,13 +487,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 4096 strings out of 493921
- 52789 string characters out of 3150556
- 131708 words of memory out of 3000000
- 7274 multiletter control sequences out of 15000+200000
- 43469 words of font info for 59 fonts, out of 3000000 for 9000
+ 4094 strings out of 493921
+ 52768 string characters out of 3150556
+ 125708 words of memory out of 3000000
+ 7273 multiletter control sequences out of 15000+200000
+ 42041 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,16n,43p,1205b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,16n,43p,1205b,328s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/INSTALL/LaTeX/Full_TeX/texmf/fonts/enc/t2/t2a.enc}{D:/INSTALL/LaTeX/Full_
 TeX/texmf/fonts/enc/dvips/lm/lm-rm.enc}<D:/INSTALL/LaTeX/Full_TeX/localtexmf/fo
 nts/type1/public/pscyr/arial.pfb><D:/INSTALL/LaTeX/Full_TeX/localtexmf/fonts/ty
@@ -545,7 +501,7 @@ pe1/public/pscyr/arialbd.pfb><D:/INSTALL/LaTeX/Full_TeX/localtexmf/fonts/type1/
 public/pscyr/ariali.pfb><D:/INSTALL/LaTeX/Full_TeX/texmf/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><D:/INSTALL/LaTeX/Full_TeX/texmf/fonts/type1/public/lm/lmr8
 .pfb>
-Output written on Document.pdf (5 pages, 135918 bytes).
+Output written on Document.pdf (5 pages, 135574 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

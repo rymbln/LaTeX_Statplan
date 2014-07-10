@@ -52,14 +52,17 @@
 %При форматировании таблиц рассчитывать, что ширина поля
 %ввода страницы 0,95 - от этого и плясать при определении ширины столбцов
 %%%
-% Для выравнивания содержимого столбцов по вертикали
+% Для выравнивания содержимого столбцов
 %%%
-%p - means normal cells, they are like parbox with alignment at the top line
-%b - means alignment at the bottom, so the baseline is at the bottom line
-%m - means alignment in the vertical center, i.e. the baseline is in the center.
+%p - вверх
+%b - Центр по вертикали
+%m - Низ
+%l - Лево
+%с - цент по горизонтали
+%r - право
 \begin{document}
 
-\centering\textbf{ПЛАН СТАТИСТИЧЕСКОГО АНАЛИЗА}
+\centerline{\textbf{ПЛАН СТАТИСТИЧЕСКОГО АНАЛИЗА}}
 \vspace{12pt}
 \begin{table} [!h]
   \begin{tabular}{| m{0.475\textwidth}|m{0.475\textwidth}|}
@@ -72,43 +75,36 @@
 \end{table}
 
 \begin{table} [!h]
-  \begin{tabular}{| p{0.475\linewidth}|p{0.475\linewidth}|}
+  \begin{tabular}{| m{0.475\textwidth}|m{0.475\textwidth}|}
   \hline
-   \textbf{Терапевтические группы} & ) \\
-  \hline
-   \textbf{Номер протокола} & CS-ARI01-11 (CP-047) \\
+   \textbf{Номер протокола} & PRO-RUS-001 \\
    \hline
-   \textbf{Название протокола} & \\
+   \textbf{Название протокола} & Проспективная наблюдательная про-грамма по оценке эффективности макро-лидов и тетрациклинов у мужчин с хро-ническим простатитом в повседневной клинической практике в России «TAU-RUS»\\
    \hline
-   \textbf{Спонсор} & \\
+   \textbf{Заказчик} & Представительство компании «Астеллас Фарма Юроп Б.В.» в России\\
    \hline
-   \textbf{Контрактно-исследовательская организация} & Cronos Pharma \\
-  \hline
+
   \end{tabular}
 \end{table}
 
 \begin{table} [!h]
-    \begin{tabular}{|p{0.2\linewidth}|p{0.3\linewidth}|p{0.475\linewidth}|}
+\centering
+    \begin{tabular}{|>{\centering\arraybackslash}p{0.309\textwidth}|>{\centering\arraybackslash}p{0.309\textwidth}|>{\centering\arraybackslash}p{0.309\textwidth}|}
     \hline
-    \multicolumn{3}{|c|}{\textbf{Контроль версий}}\\
+    \multicolumn{3}{|c|}{\footnotesize{\textbf{Контроль версий}}}\\
     \hline
-    \textbf{Версия} & Дата изменения & Причина изменения \\
+  \footnotesize{\textbf{Версия}} &  \footnotesize{\textbf{Дата изменения}} &  \footnotesize{\textbf{Причина изменения}} \\
     \hline
-    \small{Черновая (первичная)} &	\small{16 февраля 2013} &	\small{Первичная черновая версия} \\
+    \footnotesize{Черновая 0.1} &	\footnotesize{24.02.2014} &	\footnotesize{Первичная черновая версия} \\
     \hline
-    \small{Черновая версия} &	\small{25 февраля 2013} &	\small{Комментарии спонсора} \\
+
+    &&\\
     \hline
-    \small{Черновая версия} &	\small{25 марта 2013} &	\small{Добавлены переменные для анализа} \\
-    \hline
-    \small{Черновая версия} &	\small{06 апреля 2013} &	\small{Добавлен раздел «Промежуточный анализ»} \\
-    \hline
-    \small{Черновая версия} &	\small{09 апреля 2013} &	\small{Комментарии спонсора} \\
-    \hline
-    \small{Финальная версия} &	\small{17 апреля 2013} &	\small{Добавлены популяции для промежуточного анализа} \\
+    &&\\
     \hline
     \end{tabular}
 \end{table}
-
+\vspace{36pt}
 \begin{table} [!h]
 \centering
 \begin{tabular} {p{0.2\linewidth}p{0.25\linewidth}}
@@ -123,15 +119,15 @@
 
 \begin{table} [!b]
 \centering
-    \begin{tabular} {|p{\textwidth}|}
+    \begin{tabular} {|p{0.975\textwidth}|}
     \hline
-     \tiny{Данный документ является конфиденциальной информацией компании Cromos Pharma. Это означает, что вы соглашаетесь не публиковать или раскрывать любую информацию, содержащуюся в настоящем документе, если она не была опубликована ранее, без предварительного письменного разрешения Cromos Pharma} \\
+     \scriptsize{Данный документ является конфиденциальной информацией компании Cromos Pharma. Это означает, что вы соглашаетесь не публиковать или раскрывать любую информацию, содержащуюся в настоящем документе, если она не была опубликована ранее, без предварительного письменного разрешения Cromos Pharma} \\
     \hline
     \end{tabular}
 \end{table}
 
 
-
+\clearpage
 \section[Введение]{Введение}
 \label{section2}
 Данный план описывает планируемый статистический анализ данных клинического исследования по протоколу
