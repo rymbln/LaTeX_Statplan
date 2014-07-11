@@ -62,7 +62,7 @@
 %r - право
 \begin{document}
 
-\centering\textbf{ПЛАН СТАТИСТИЧЕСКОГО АНАЛИЗА}
+\centerline{\textbf{ПЛАН СТАТИСТИЧЕСКОГО АНАЛИЗА}}
 \vspace{12pt}
 \begin{table} [!h]
   \begin{tabular}{| m{0.475\textwidth}|m{0.475\textwidth}|}
@@ -89,12 +89,11 @@
 
 \begin{table} [!h]
 \centering
-    \begin{tabular}{|p{0.309\textwidth}|p{0.309\textwidth}|p{0.309\textwidth}|}
-    \centering
+    \begin{tabular}{|>{\centering\arraybackslash}p{0.309\textwidth}|>{\centering\arraybackslash}p{0.309\textwidth}|>{\centering\arraybackslash}p{0.309\textwidth}|}
     \hline
     \multicolumn{3}{|c|}{\footnotesize{\textbf{Контроль версий}}}\\
     \hline
-    \makecell[c]{\footnotesize{\textbf{Версия}}} &  \makecell[c]{\footnotesize{\textbf{Дата изменения}}} &  \makecell[c]{\footnotesize{\textbf{Причина изменения}}} \\
+  \footnotesize{\textbf{Версия}} &  \footnotesize{\textbf{Дата изменения}} &  \footnotesize{\textbf{Причина изменения}} \\
     \hline
     \footnotesize{Черновая 0.1} &	\footnotesize{24.02.2014} &	\footnotesize{Первичная черновая версия} \\
     \hline
@@ -120,7 +119,8 @@
 
 \begin{table} [!b]
 \centering
-    \begin{tabular} {|p{0.975\textwidth}|}
+  %  \begin{tabular} {|p{0.975\textwidth}|}
+  \begin{tabular}{|p{\linewidth}|}
     \hline
      \scriptsize{Данный документ является конфиденциальной информацией компании Cromos Pharma. Это означает, что вы соглашаетесь не публиковать или раскрывать любую информацию, содержащуюся в настоящем документе, если она не была опубликована ранее, без предварительного письменного разрешения Cromos Pharma} \\
     \hline

@@ -7,6 +7,7 @@
 \usepackage{multirow}
 \usepackage{makecell}
 \usepackage{amsmath}
+\usepackage{amssymb} % для использования прикольных математических символов
 \usepackage{tabularx}
 \usepackage{color,colortbl}
 \usepackage{lscape}		% Для включения альбомных страниц
@@ -15,11 +16,13 @@
 %%% Макет страницы - настраиваем размер бумаги и поля%%%
 \geometry{a4paper,top=2.54cm,bottom=2cm,left=2cm,right=1.5cm}
 
+
 %\usepackage{fontspec}
 %\setmainfont{Arial}
 
 \definecolor{black}{RGB}{0,0,0}
 \definecolor{white}{RGB}{255,255,255}
+\definecolor{grey}{RGB}{153,153,153}
 \parindent=0mm % Устанавливаем отступ в 0mm
 \parskip=3mm % Устанавливаем вертикальный интервал в 1mm
 
@@ -119,7 +122,8 @@
 
 \begin{table} [!b]
 \centering
-    \begin{tabular} {|p{0.975\textwidth}|}
+  %  \begin{tabular} {|p{0.975\textwidth}|}
+  \begin{tabular}{|p{\linewidth}|}
     \hline
      \scriptsize{Данный документ является конфиденциальной информацией компании Cromos Pharma. Это означает, что вы соглашаетесь не публиковать или раскрывать любую информацию, содержащуюся в настоящем документе, если она не была опубликована ранее, без предварительного письменного разрешения Cromos Pharma} \\
     \hline
@@ -135,29 +139,56 @@
 \label{section3}
 
 \begin{table} [!h]
-\parbox{15cm}{\caption{Список сокращений}\label{table1}}
-\begin{tabular}{p{0.25\linewidth}p{0.75\linewidth}}
-\rowcolor{black}\color{white}{Сокращение} &	\color{white}{Расшифровка} \\ \hline
-НЯ &	Нежелательное Явление\\ \hline
-ИРК	& Информационно-Регистрационная Карта\\ \hline
-СНЯ	& Серьезное Нежелательное Явление\footnotemark[1]
-
-\\ \hline
-TESS &	Treatment Emergency Sign and Symptoms\\ \hline
-PANSS & Positive and Negative Syndrome Scale (шкала позитиывных и негативных симптомов) \\ \hline
-\textbf{PANSS Total scale} &	PANSS total score of 30 items from 1 to 7 each (minimum score = 30, maximum score = 210) \\ \hline
-PANSS  Positive &	PANSS positive score of 7 Items, (minimum score = 7, maximum score = 49)\\ \hline
-PANSS Negative	& PANSS negative score of 7 Items, (minimum score = 7, maximum score = 49)\\ \hline
-PANSS General Psychopathology &	PANSS GP score of 16 Items, (minimum score = 16, maximum score = 112)\\ \hline
-CGI-S &	Clinical Global Impression-Severity (общая клиническая оценка-тяжесть заболевания)\\ \hline
-CGI-I &	Clinical Global Impression-Improvement (общая клиническая оценка-улучшение)\\ \hline
-AIMS &	Abnormal Involuntary Movement Scale (шкала оценки анормальных непроизвольных движений)\\ \hline
-SAS	 & Simpson–Angus Scale (шкала Симпсона-Ангуса для оценки экстрапирамидных побочных эффектов)\\ \hline
-ИМТ &	Индекс Массы Тела = Вес/Рост (см)$^{2}$\\ \hline
-КЗ &	Клинически Значимо\\ \hline
+\centering
+%\parbox{15cm}{\caption{Список сокращений}\label{table1}}
+\begin{tabular}{|p{0.20\textwidth}|p{0.75\textwidth}|}
+\hline
+\rowcolor{grey}
+\makecell[c]{\color{black}\textbf{Сокращение}} &	\makecell[c]{\color{black}\textbf{Расшифровка}} \\
+\hline
+$\mathcal X^{2}$&	Значение критерия Хи-квадрат (в т.ч. для критерия Мак-Немара)\\
+\hline
+CPSI	& Индекс симптомов хронического простатита\\ 
+\hline
+IQR	& Интерквартильный размах\footnotemark[1]\\ 
+\hline
+F &	Значение F-теста (однофакторный дисперсионный анализ)\\ 
+\hline
+H & Значение критерия Крускалла-Уоллиса \\ 
+\hline
+M & Среднее значение \\ 
+\hline
+MAX &	Максимальное значение признака \\ 
+\hline
+Me	& Медиана \\ 
+\hline
+MIN &	Минимальное значение признака \\ 
+\hline
+NIH &	Национальный институт здравоохранения США \\ 
+\hline
+SD &	Стандартное отклонение \\ 
+\hline
+t &	Значение (парного) критерия Стьюдента \\ 
+\hline
+U	 & Значение критерия Манна-Уитни \\ 
+\hline
+W &	Значение критерия Уилкоксона\\ 
+\hline
+ИРК &	Индивидуальная регистрационная карта \\ 
+\hline
+НЯ & Нежелательное явление \\
+\hline
+НЯВПЛ & Нежелательное явление, возникшее после начала лечения \\
+\hline
+НР & Нежелательная реакция\\
+\hline
+СНЯ & Серьёзное нежелательное явление \\
+\hline
+эИРК & Электронная Индивидуальная регистрационная карта \\
+\hline
 \end{tabular}
 \end{table}
-\footnotetext[1]{text}
+\footnotetext[1]{Интерквартильный размах - интервал значений признака, содержащий центральные 50\% наблюдений выборки, т.е. интервал между 25-м и 75-м процентилями}
 \section[Дизайн исследования]{Дизайн исследования}
 \label{section4}
 Данное исследование является открытым рандомизированным \footnote[1]{Сноска про нежелательное явление} многоцентровым сравнительным исследованием.
